@@ -15,7 +15,7 @@ export const HealthLabel = styled.span`
 
 export const HealthInput = styled.div`
   input {
-    width: 80%;
+    width: 100%;
     margin: 10px;
     color: #737A75;
     border: 1px solid #515753;
@@ -27,4 +27,13 @@ export const HealthInput = styled.div`
       outline: none;
     }
   }
+`;
+
+export const HealthAdvice = styled.div `
+  background: red;
+  color: white;
+  margin-top: 60px;
+  width: 200px;
+  padding: 20px;
+  text-align: justify;
 `;
