@@ -30,7 +30,7 @@ export const HealthInput = styled.div`
 `;
 
 export const HealthAdvice = styled.div `
-  background: red;
+  background: #3C5E45;
   color: white;
   margin-top: 60px;
   width: 200px;
